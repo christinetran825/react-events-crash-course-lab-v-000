@@ -28,7 +28,10 @@ export default class ChromeBoisDomain extends Component {
    */
    
  handleOnKeyPress = (e) => {
-   if e.key==resize()
+   if e.key=== 'a' {
+     return resize()
+   }
+    return
  }
   
   render() {
